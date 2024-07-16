@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
 import Contact2 from "../contact/Contact2";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 const Container = styled.div`
   font-family: 'League Gothic', sans-serif;
