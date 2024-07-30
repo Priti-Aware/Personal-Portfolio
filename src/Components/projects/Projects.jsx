@@ -113,6 +113,7 @@ const ProjectInfoWrapper = styled.div`
   left: 0;
   height: 85vh;
   width: 100%;
+
   gap: 2em;
   align-items: center;
   justify-content:center;
@@ -123,13 +124,17 @@ const ProjectInfoWrapper = styled.div`
     gap:0.5em;
   }
   h1 {
+    cursor: pointer;
     font-family: "League Gothic", sans-serif;
     font-size: 7em;
     line-height: 100%;
     font-weight: 400;
     letter-spacing: -0.2vw;
     text-transform: uppercase;
-
+    a{
+      text-decoration: none;
+      color: #e8e6e6;
+    }
     @media (max-width: 480px) {
       font-size: 1.5em;
     }
@@ -179,7 +184,11 @@ const Projects = () => {
               <img src={Port} alt="PortFolio" />
             </ProjectBgWrapper>
             <ProjectInfoWrapper>
-              <h1>PortFolio </h1>
+              <h1><a
+                  href="https://priti-aware-portfolio.vercel.app/"
+                  target="_blank"
+                >PortFolio</a>
+              </h1>
               <h2>
                 <a
                   href="https://github.com/Priti-Aware/Personal-Portfolio.git"
