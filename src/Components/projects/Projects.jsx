@@ -134,6 +134,7 @@ const ProjectInfoWrapper = styled.div`
     a{
       text-decoration: none;
       color: #e8e6e6;
+      cursor: pointer;
     }
     @media (max-width: 480px) {
       font-size: 1.5em;
